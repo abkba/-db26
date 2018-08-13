@@ -1,6 +1,7 @@
 # DefCon 26
 Stuff done at DefCon26
 
+## Networking
 - Vagrant setup:
   - 1 nat-node
     - node has netdata installed
