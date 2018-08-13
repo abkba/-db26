@@ -18,7 +18,8 @@ Stuff done at DefCon26
     - grafana with statsd as backend (Ansible?)
   
 ### Python script for `nf_conntrack` metrics/metadata.
-- Python script to aggregate data from /proc/net/nf_conntrac file
-  - tested using `pynetfilter_conntrack` library to no avail
+- Python script to aggregate data from `/proc/net/nf_conntrack` file
+  - tested using `pynetfilter_conntrack` library to no avail.
+    - need something that works with python3.
   - TODO
-    - going to hack together a shitty script that aggregates data from above file and sends it to graphite/statsd endpoint.
+    - hack together a shitty script that aggregates data from above file and sends it to graphite/statsd endpoint.
