@@ -17,7 +17,12 @@ Stuff done at DefCon26
     - setup graphite node properly with statsd
     - grafana with statsd as backend (Ansible?)
   
-### Python script for `nf_conntrack` metrics/metadata.
+### Python script for `nf_conntrack` metrics/metadata
+#### Requirements
+- `python3`
+- CentOS 6/7
+
+#### Details
 - Python script to aggregate data from `/proc/net/nf_conntrack` file
   - tested using `pynetfilter_conntrack` library to no avail.
     - need something that works with python3.
