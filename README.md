@@ -1,4 +1,4 @@
-# dc26
+# DefCon 26
 Stuff done at DefCon26
 
 - Vagrant setup:
